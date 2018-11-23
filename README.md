@@ -1,7 +1,7 @@
 # springboot-netty
 用springboot集成了netty server，针对自定义私有协议，实现链接保持并保存协议内容和channel关系，需要心跳来保持链接。超时未收到数据断开链接。
 # Dashboard
-启动后可以通过http://127.0.0.1:8080/dashboard链接来查看当前设备接入情况。
+启动后可以通过http://127.0.0.1:8080/dashboard 链接来查看当前设备接入情况。
 # 自定义协议介绍
 在自定义协议中，long占4个字节，int占两个字节，可以根据自己的需求来重新定义。
 ````
