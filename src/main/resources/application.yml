@@ -1,0 +1,22 @@
+
+#tcp监听的端口
+tcp:
+  port: 40000
+#bossGroup的线程数
+boss:
+  thread:
+    count: 4
+#worker的线程数
+worker:
+  thread:
+    count: 4
+#是否使用长连接
+so:
+  keepalive: true
+  backlog: 1024
+#logback路径
+logging:
+  config: classpath:log/logback-spring.xml
+#http server端口
+server:
+  port: 8080
